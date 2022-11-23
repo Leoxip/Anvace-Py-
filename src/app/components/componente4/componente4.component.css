@@ -1,0 +1,13 @@
+.login{
+    background-color:#222224cb ;
+    width: 28rem;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 40px;
+    
+}
+.boton{
+    background-color: #00B707; 
+}

@@ -1,0 +1,29 @@
+.footer{
+    background: #16181C;
+    text-align: center;
+    color:aliceblue;
+   
+
+
+    
+}
+.bg-darck{
+    height: 51px;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    z-index: 10;
+   
+  
+}
+
+p{
+    padding: 1rem;
+    font-size: 80%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container{
+    text-align: center;
+    
+}

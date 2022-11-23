@@ -1,0 +1,116 @@
+<app-nav-mesa></app-nav-mesa>
+<div class="body d-flex">
+  <div class="container " id="contl">
+
+      <p class="text-black text-center position-absolute fs-4 p-2 fw-semibold">Generar Número de Expediente</p>
+      <div id="cubo">
+        <div class="card-body">
+            <div class="teditar">
+              <p class="card-header text-start text-warning">
+                <font color="#EFED00">SOLICITUDES</font></p>
+            </div>
+            <p class="text-wrap">
+              Para poder generar el número de expediente a una solicitud de registro, tiene que observar la solicitud
+              de registro y seleccioné generar. También puede buscar las solicitudes por su número de expediente y fecha;
+              y ver los datos de los representantes de cada solicitud.
+            </p>
+            <hr />
+            <div class="card-body-1">
+              <div class="card-header row" id="rolbuscar">
+                    
+<br>
+                <div class="col ">
+                  <label>Número de Expediente:</label>
+                  <br />
+                  <input type="text" class="form-control rounded-pill" id="nombrerol" 
+                  placeholder="  Ingrese el número de expediente"/>
+                </div>
+                <div class="col">
+                  <label class="form-label">Fecha:&nbsp;&nbsp;&nbsp;</label>
+                  <br>
+                  <input class="fech rounded-pill" type="date"/>
+                  
+                </div>
+                <div class="col-sm-2">
+                  <br />
+                  <button
+                    routerLink="/inicio-admin"
+                    class="btn btn-outline-light"
+                  >
+                  <i class="bi bi-search"></i>&nbsp;&nbsp; Buscar
+                  </button>
+                </div>
+              </div>
+              <br />
+              <div class="card-header3 bg-dark">
+                <table class="table text-center align-middle">
+                  <thead class="titutab">
+                    <tr>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">ROL</th>
+                      <th scope="col">Correo</th>
+                      <th scope="col">Acciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Steven</td>
+                      <td>Mesa de Partes</td>
+                      <td>Sthevencarujualca@gmail.com</td>
+                      <td>
+                        <button class="btn btn bg-success" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                          <i class="bi bi-pencil-fill"></i>
+                        </button>&nbsp;&nbsp;
+                        <button class="btn btn bg-danger">
+                          <i class="bi bi-trash-fill"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Enrique</td>
+                      <td>Gerencia de Desarrollo Social</td>
+                      <td>Enriquematencio@gmail.com</td>
+                      <td>
+                        <button class="btn btn bg-success" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                          <i class="bi bi-pencil-fill"></i>
+                        </button>&nbsp;&nbsp;
+                        <button class="btn btn bg-danger">
+                          <i class="bi bi-trash-fill"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Janampa</td>
+                      <td>Subgerencia de participaciones vecinal</td>
+                      <td>Anthonyjanampa@gmail.com</td>
+                      <td>
+                        <button class="btn btn bg-success" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                          <i class="bi bi-pencil-fill"></i>
+                        </button>&nbsp;&nbsp;
+                        <button class="btn btn bg-danger">
+                          <i class="bi bi-trash-fill"></i>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Lovato</td>
+                      <td>Subgerencia de participaciones vecinal</td>
+                      <td>lovatohuaman@gmail.com</td>
+                      <td>
+                        <button class="btn btn bg-success" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                          <i class="bi bi-pencil-fill"></i>
+                        </button>&nbsp;&nbsp;
+                        <button class="btn btn bg-danger">
+                          <i class="bi bi-trash-fill"></i>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+  </div>
+</div>

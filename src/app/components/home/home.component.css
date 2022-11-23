@@ -1,0 +1,167 @@
+/*=========================TItulo de Bienvenida================================*/
+.Tl{
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    margin-left: 4rem;
+}
+
+/*=========================Cuerpo================================*/
+
+.header{
+    width: 100%;
+    background-color:#222224;
+    
+}
+/*=========================Deque trata================================*/
+.Deq{
+    background-color: #4F5257;
+    height: 270px;
+    padding: 0;
+    margin: 0;
+}
+.tex{
+    color: white;
+    font-size: 18px;
+}
+
+.St{
+    padding-top: 2rem;
+    width: 100%;
+   }
+   
+.btn-RS{
+       text-decoration: none;     
+           padding: 7px 12px;
+           color: white;
+           text-shadow: 0px 4px 13px #000000;
+           display: inline-block;
+           font-weight: 400;
+           outline: none !important;
+           text-align: center;
+           cursor: pointer;
+           margin: 0 auto; 
+           font-size: 23px;      
+   }
+/*=========================Requerimientos================================*/
+.Req{
+    background-color: #E2D833;
+    height: 287px;
+    
+}
+.sts{
+    font-size: 18px;
+    font-weight: 400;
+}
+.rqs{
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+.im3{
+    padding-left: 4rem;
+    padding-top: 0;
+}
+/*=========================Formatos================================*/
+.For{
+    background-color: #4F5257;
+}
+.Tb p{
+    color: white;
+}
+
+.Tlt{
+    padding-top: 1rem;
+}
+
+.table{
+    border-radius: 18px ;
+    overflow: hidden;
+    font-family: Arial;
+    filter: drop-shadow(0px 4px 13px #414141);
+    cursor: pointer;
+    min-width: 400px; 
+    border-bottom: rgba(0, 0, 0, 0);   
+}
+
+th, td{
+    padding: 25;
+}
+td{
+    color: white;
+    font-size: 0.9em;
+    
+}
+
+.En tr{
+    background-color:#CEE000;
+    color: #323232; 
+    text-align: center;
+    
+}
+
+
+tbody{
+    background-color: #2A2B34 ;
+}
+
+
+tr:nth-child(even){
+    background-color:#282930 ;
+}
+tr:hover td{
+    background-color: #405550;
+    color: rgb(255, 241, 47);
+   
+}
+
+.im4{
+    padding-top: 7rem;
+}
+.im5{
+    padding-top: 6rem;
+}
+/*=========================Organizaciones================================*/
+.Org{
+    height: 700px;
+    background: linear-gradient(180deg, #4F5257 0%, rgba(79, 82, 87, 0) 100%);
+}
+
+.TbOr{
+    filter: drop-shadow(0px 4px 13px #202022);
+}
+
+.EW tr{
+    background: #0E811A;
+        color: #ffffff; 
+    text-align: center;
+
+}
+
+.bo{
+    background: #2A2B34 ;
+}
+
+.bo tr:nth-child(even){
+    background-color:#282932;
+}
+.bo tr:hover td{
+    background-color: #405555;
+    color: rgb(47, 255, 57);
+   
+}
+
+.bo td{
+    color: rgb(194, 194, 194);
+    font-size: 0.9em;
+    
+}
+.im6{
+   
+   padding-top: 39.2rem;
+   
+}
+.im7{
+   
+    padding-top: 38rem;
+    
+ }
+
